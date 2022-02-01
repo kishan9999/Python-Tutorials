@@ -9,7 +9,7 @@ class car:
         self.speed = 20
     
     def accelerator(self):
-        if self.speed< car.max_speed:
+        if self.speed< car.max_speed:    #you can also use self.max_speed as class attributes can be accessed by instance
             self.speed+=1 
         print(f"current speed is {self.speed}")
         
