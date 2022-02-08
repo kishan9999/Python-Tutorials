@@ -15,3 +15,10 @@ print("square root of 16 = ",sqrt(16))
 tag = lambda name: print(f"hello, {name}")
 
 tag('peter')
+
+#multiple returns 
+
+combo = lambda a,b: ((a+b)/2 ,a**2, a**3)
+a1, a2, a3 = combo(10,12)
+
+print(a1, a2, a3)
